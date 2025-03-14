@@ -2,6 +2,9 @@
 
 A Next.js-based video sharing and messaging app with authentication, recording, and chat features, styled with Tailwind CSS and hosted on Vercel.
 
+## Live Demo
+[View the deployed app](<your-vercel-url>)
+
 ## Features
 - User authentication with login/logout
 - Video recording via MediaRecorder API
@@ -23,31 +26,7 @@ A Next.js-based video sharing and messaging app with authentication, recording, 
 
 ## Installation
 ```bash
-git clone https://github.com/gtbSrihari/next-gen-video-frontend.git
+git clone https://github.com/<your-username>/next-gen-video-frontend.git
 cd next-gen-video-frontend
 npm install
 npm run dev
-```
-Open `http://localhost:3000`.
-
-## Usage
-- Login at `/login` (auto-fills `user@example.com`/`password123` on focus).
-- Access Home (`/`), Record (`/record`), Chat (`/chat`).
-- Logout via nav bar.
-
-## Structure
-- `src/app/`: Pages (e.g., `login`, `record`, `chat`, `layout`).
-- `src/components/`: Components (e.g., `Nav`, `ProtectedRoute`).
-- `src/context/`: `AuthContext` for state.
-- `src/app/globals.css`: Tailwind styles.
-
-## Deployment
-1. Push to GitHub.
-2. Import to [Vercel](https://vercel.com) and deploy.
-3. Access via Vercel URL.
-
-## Contributing
-Fork, branch, and submit a pull request.
-
-## License
-MIT
