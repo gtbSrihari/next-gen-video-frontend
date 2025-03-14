@@ -26,7 +26,7 @@ A Next.js-based video sharing and messaging app with authentication, recording, 
 
 ## Installation
 ```bash
-git clone https://github.com/<your-username>/next-gen-video-frontend.git
+git clone https://github.com/gtbSrihari/next-gen-video-frontend.git
 cd next-gen-video-frontend
 npm install
 npm run dev
