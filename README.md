@@ -3,7 +3,7 @@
 A Next.js-based video sharing and messaging app with authentication, recording, and chat features, styled with Tailwind CSS and hosted on Vercel.
 
 ## Live Demo
-[View the deployed app](<your-vercel-url>)
+[View the deployed app](https://next-gen-video-frontend.vercel.app/)
 
 ## Features
 - User authentication with login/logout
